@@ -1,3 +1,54 @@
-*{
-    block-size: border-box ;
+* {
+    block-size: border-box;
+    max-width: 100%;
+}
+
+body {
+!Important font-family: Montserrat sans-serif bolt: 18;
+
+}
+
+a {
+ font-family: Montserrat sans-serif ;
+
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section {
+
+}
+
+.first_section {
+    position: absolute;
+
+}
+
+.card_1 {
+    height: 26rem;
+    width: 36rem;
+    top: -200px;
+    left: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+!Important font-family: Merriweather sans-serif;
+}
+
+p {
+    font-family: Montserrat sans-serif;
+}
+
+footer {
+    background: #F7F7F7;
 }
