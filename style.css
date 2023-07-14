@@ -22,6 +22,17 @@ body {
     background-color: rgb(247, 128, 101) !important;
     border-color: rgb(247, 128, 101) !important;
 }
+.btn-danger:hover {
+    opacity: 0.8;
+}
+.col-4:hover {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.col-lg-3:hover {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 .first_section {
     position: absolute;
@@ -83,8 +94,8 @@ footer {
     }
 
     footer .mx3 {
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .card_1 {
@@ -136,5 +147,61 @@ footer {
         text-align: center;
     }
 
+}
+
+
+
+/--/
+.menu-image {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-image img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-image:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    list-style: none;
+    display: none;
+    z-index: 999;
+}
+
+.dropdown-menu li {
+    margin: 10px 0;
+}
+
+.dropdown-menu li a {
+    color: white;
+
+    background-color: rgb(247, 128, 101);
+    border-color: rgb(247, 128, 101);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 
 }
+
+.dropdown-menu li a img {
+    margin-right: 5px;
+}
+
+.dropdown-menu li a:hover {
+    opacity: 0.8;
+}
+
+.show {
+    display: block;
+}
+
